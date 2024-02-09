@@ -24,7 +24,7 @@ const updateData = () => {
 };
 
 window._TestRect = () => {
-  let r = cae(u("F"), "rect", {
+  let r = cae(u("f"), "rect", {
     x: 10,
     y: 10,
     width: 100,
