@@ -23,10 +23,6 @@ window.updateData = () => {
   _TestRect();
 };
 
-window._H = () => {
-  updateData(); // Update the SVG elements
-};
-
 window._TestRect = () => {
   let r = cae(u("vBox"), "rect", {
     x: 10,
@@ -39,3 +35,5 @@ window._TestRect = () => {
     console.log("clicked");
   };
 };
+
+updateData();
