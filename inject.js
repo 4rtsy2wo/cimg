@@ -19,6 +19,14 @@ window.m = (s, e, d, mi, ma, h) => {
     .map((h) => (parseInt(h, 16) / ra) * (ma - mi) + mi);
 };
 
+window.updateData = () => {
+  _TestRect();
+};
+
+window._H = () => {
+  updateData(); // Update the SVG elements
+};
+
 window._TestRect = () => {
   let r = cae(u("vBox"), "rect", {
     x: 10,
