@@ -20,7 +20,7 @@ window.m = (s, e, d, mi, ma, h) => {
 };
 
 window._TestRect = () => {
-  let r = cae(u("svg"), "rect", {
+  let r = cae(u("vBox"), "rect", {
     x: 10,
     y: 10,
     width: 100,
